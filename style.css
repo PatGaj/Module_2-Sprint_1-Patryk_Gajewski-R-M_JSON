@@ -1,0 +1,98 @@
+:root {
+  --grey: #ebebeb;
+  --white: #ffffff;
+  --shadow: #595b72;
+  --border-color: #b0b5e6;
+  --button-color: #3f3cf1;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* tag styling */
+body {
+  background-color: var(--grey);
+  display: flex;
+  row-gap: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  height: 10vh;
+}
+img {
+  width: 60%;
+  height: 50%;
+  border-radius: 5px;
+}
+main {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 25px;
+  justify-content: center;
+  align-content: start;
+}
+button {
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: var(--button-color);
+  color: var(--white);
+}
+
+/* class styling */
+.character {
+  width: 180px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 8px;
+  border: solid 1px var(--border-color);
+  box-shadow: 5px 6px 5px 1px var(--shadow);
+  row-gap: 10px;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+.createCharater {
+  width: 300px;
+  height: 30px;
+}
+.changePage {
+  width: 50px;
+  height: 30px;
+  font-weight: 900;
+}
+.deleteButton {
+  width: 90%;
+}
+
+/* id styling */
+#pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+#createCharacterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 300px;
+  background-color: var(--white);
+  border-radius: 14px;
+  row-gap: 10px;
+}

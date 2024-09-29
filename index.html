@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href=".\style.css" />
+    <script src=".\script.js" async></script>
+  </head>
+  <body>
+    <header>
+      <label for="filter">Search:</label>
+      <input id="filter" type="search" />
+      <input id="alive" class="liveType" name="liveType" type="radio" value="Alive" checked />
+      <label for="alive">Żywy</label>
+      <input id="dead" class="liveType" name="liveType" type="radio" value="Dead" />
+      <label for="dead">Martwy</label>
+      <input id="unknown" class="liveType" name="liveType" type="radio" value="unknown" />
+      <label for="unknown">Nieznany</label>
+    </header>
+    <main></main>
+    <div id="pagination">
+      <button class="changePage" id="previousPage"><</button>
+      <button class="changePage" id="nextPage">></button>
+    </div>
+    <div id="createCharacterContainer">
+      <span>Stwórz postać</span>
+      <input class="createCharater" id="newCharacterName" type="text" placeholder="Nazwa postaci" />
+      <select class="createCharater" id="newCharacterStatus">
+        <option value="Alive">Żywy</option>
+        <option value="Dead">Martwy</option>
+        <option value="unknown">Nieznany</option>
+      </select>
+      <input class="createCharater" id="newCharacterSpecies" type="text" placeholder="Rasa" />
+      <button class="createCharater" id="createNewCharater">Stwórz</button>
+    </div>
+  </body>
+</html>
