@@ -1,0 +1,14 @@
+{
+  "name": "sprint_1-patryk_gajewski-r-m_json",
+  "version": "1.0.0",
+  "description": "RickAndMortyJsonServer",
+  "main": "script.js",
+  "scripts": {
+    "dev": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
